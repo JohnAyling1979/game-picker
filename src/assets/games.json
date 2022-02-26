@@ -1,0 +1,29 @@
+{
+    "games": [
+        {
+            "name": "Game 1",
+            "min": 5,
+            "max": 6
+        },
+        {
+            "name": "Game 2",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "Game 3",
+            "min": 3,
+            "max": 6
+        },
+        {
+            "name": "Game 4",
+            "min": 3,
+            "max": 6
+        },
+        {
+            "name": "Game 5",
+            "min": 3,
+            "max": 6
+        }
+    ]
+}

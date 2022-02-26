@@ -1,0 +1,11 @@
+<form>
+    <label for="player-count" class="form-label">Number of players</label>
+    <input
+        type="number"
+        class="form-control"
+        name="player-count"
+        [(ngModel)]="playerCountFilter"
+        required
+        (change)="onClick()"
+    >
+</form>
