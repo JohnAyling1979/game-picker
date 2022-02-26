@@ -13,6 +13,7 @@ export class GameListComponent implements OnInit, OnDestroy {
   private filterSubscription: Subscription;
   games: Game[] = [];
   playerFilter: number = 0;
+  randomGame: Game | null;
 
   constructor(private gamesService: GamesService) { }
 
@@ -24,6 +25,26 @@ export class GameListComponent implements OnInit, OnDestroy {
       this.playerFilter = players;
     })
     this.gamesService.fetchGames();
+  }
+
+  getFilterGames() {
+    if (this.playerFilter === 0 || this.playerFilter === null) {
+      return this.games;
+    }
+
+    return this.games.filter(game => game.min <= this.playerFilter && game.max >= this.playerFilter)
+  }
+
+  getRandomGame() {
+    const games = this.getFilterGames();
+
+    if (games.length === 0) {
+      this.randomGame = null;
+    }
+
+    const index = Math.floor(Math.random() * games.length)
+
+    this.randomGame = games[index];
   }
 
   ngOnDestroy(): void {

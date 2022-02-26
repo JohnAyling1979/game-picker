@@ -1,3 +1,9 @@
 <div>
-    <app-game-item *ngFor="let game of games | filter: playerFilter" [game]="game"></app-game-item>
+    <button class="btn btn-primary" (click)="getRandomGame()">Choose Game</button>
+    <div *ngIf="randomGame">
+        <p>You are going toplaying</p>
+        <app-game-item [game]="randomGame"></app-game-item>
+        <hr>
+    </div>
+    <app-game-item *ngFor="let game of getFilterGames()" [game]="game"></app-game-item>
 </div>

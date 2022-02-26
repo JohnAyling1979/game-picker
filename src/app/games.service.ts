@@ -18,6 +18,4 @@ export class GamesService {
         this.gamesChanged.next([...data.games]);
       });
   }
-
-
 }

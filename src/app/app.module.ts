@@ -6,7 +6,6 @@ import { FormComponent } from './form/form.component';
 import { GameListComponent } from './game-list/game-list.component';
 import { GameItemComponent } from './game-list/game-item/game-item.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FilterPipe } from './filter.pipe';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { FormsModule } from '@angular/forms';
     FormComponent,
     GameListComponent,
     GameItemComponent,
-    FilterPipe
   ],
   imports: [
     BrowserModule,
