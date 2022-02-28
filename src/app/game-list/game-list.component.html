@@ -1,7 +1,7 @@
 <div>
     <button class="btn btn-primary" (click)="getRandomGame()">Choose Game</button>
     <div *ngIf="randomGame">
-        <p>You are going toplaying</p>
+        <p>You are going to play:</p>
         <app-game-item [game]="randomGame"></app-game-item>
         <hr>
     </div>
