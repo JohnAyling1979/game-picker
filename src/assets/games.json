@@ -1,29 +1,255 @@
 {
+    "update_dt": "02-27-2022",
     "games": [
         {
-            "name": "Game 1",
-            "min": 5,
-            "max": 6
+            "name": "12 Days",
+            "min": 3,
+            "max": 5
         },
         {
-            "name": "Game 2",
+            "name": "77 Ways to Play Tenzi",
+            "min": 2,
+            "max": 100
+        },
+        {
+            "name": "Bohnanza Duel",
+            "min": 2,
+            "max": 2
+        },
+        {
+            "name": "Bunny Kingdom",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Cartographers",
+            "min": 1,
+            "max": 100
+        },
+        {
+            "name": "Catan Dice Game",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "Dice Force",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Deep Sea Adventure",
             "min": 2,
             "max": 6
         },
         {
-            "name": "Game 3",
+            "name": "Dungeons and Dragons",
+            "min": 3,
+            "max": 100
+        },
+        {
+            "name": "Dungeons Mayhem",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Epic Card Game",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Everdell",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "Exploding Kittens",
+            "min": 2,
+            "max": 10
+        },
+        {
+            "name": "Fluxx",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "Go Find It",
+            "min": 1,
+            "max": 6
+        },
+        {
+            "name": "Gubs",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "Guillotine",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "name": "Home from Oz",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Honey Buzz",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "Lanterns",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Loot",
+            "min": 2,
+            "max": 8
+        },
+        {
+            "name": "Love Letter",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Mille Bornes",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "Munchkin",
             "min": 3,
             "max": 6
         },
         {
-            "name": "Game 4",
+            "name": "Munchkin Oz",
             "min": 3,
             "max": 6
         },
         {
-            "name": "Game 5",
+            "name": "Munchkin Quest",
             "min": 3,
+            "max": 4
+        },
+        {
+            "name": "One Deck Dungeon",
+            "min": 1,
+            "max": 2
+        },
+        {
+            "name": "One Night Ultimate Werewolf",
+            "min": 3,
+            "max": 10
+        },
+        {
+            "name": "Oz Fluxx",
+            "min": 2,
             "max": 6
+        },
+        {
+            "name": "Potions",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Raccoon Tycoon",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "name": "Raja of the Ganges",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Ready, Set, Sloth!",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Rory's Story Cubes",
+            "min": 1,
+            "max": 100
+        },
+        {
+            "name": "Skip. Bo",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "Sleeping Queens",
+            "min": 2,
+            "max": 5
+        },
+        {
+            "name": "Smile",
+            "min": 3,
+            "max": 5
+        },
+        {
+            "name": "Sorcerer City",
+            "min": 1,
+            "max": 6
+        },
+        {
+            "name": "Spirit Island",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "Super Hazard Quest",
+            "min": 2,
+            "max": 8
+        },
+        {
+            "name": "Taco Cat Goat Cheese Pizza",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "Taco vs Burrito",
+            "min": 2,
+            "max": 4
+        },
+        {
+            "name": "The Isle of Cats",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "The Game",
+            "min": 1,
+            "max": 5
+        },
+        {
+            "name": "The Great Barrier Reef",
+            "min": 1,
+            "max": 5
+        },
+        {
+            "name": "The Legend of Drizzt",
+            "min": 1,
+            "max": 5
+        },
+        {
+            "name": "The Oregon Trail",
+            "min": 2,
+            "max": 6
+        },
+        {
+            "name": "The Sunken Treasure",
+            "min": 1,
+            "max": 4
+        },
+        {
+            "name": "Uno",
+            "min": 2,
+            "max": 1
+        },
+        {
+            "name": "Qwirkle",
+            "min": 2,
+            "max": 4
         }
     ]
 }
